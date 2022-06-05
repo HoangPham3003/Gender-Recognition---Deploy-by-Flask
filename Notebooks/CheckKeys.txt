@@ -1,0 +1,13 @@
+Index(['sound.files', 'selec', 'top.freq', 'bottom.freq', 'duration',
+       'meanfreq', 'sd', 'freq.median', 'freq.Q25', 'freq.Q75', 'freq.IQR',
+       'time.median', 'time.Q25', 'time.Q75', 'time.IQR', 'skew', 'kurt',
+       'sp.ent', 'time.ent', 'entropy', 'sfm', 'meandom', 'mindom', 'maxdom',
+       'dfrange', 'modindx', 'startdom', 'enddom', 'dfslope', 'meanpeakf',
+       'h1_freq', 'h1_width', 'h2_freq', 'h2_width', 'h3_freq', 'h3_width',
+       'HNR', 'HNRVoiced', 'meanfun', 'minfun', 'maxfun'],
+      dtype='object')
+
+
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Audio recoder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript" src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css_2/style_2.css') }}">
+    </head>
+    <body>
+        <h1 id="title">Gender Recognition by Voice</h1>
+        <div id="main-body">
+            <div id="controls">
+                <button id="recordButton">RECORD</button>
+                <button id="stopButton" disabled>STOP</button>
+            </div>
+            <div id="status">Status: Push the button to record.</div>
+            <ol id="recordingsList"></ol>
+            <p class="result"></p>
+        </div>
+
+        <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+        <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+        <script src="../static/js_2/app_2.js"></script>
+    </body>
+</html>

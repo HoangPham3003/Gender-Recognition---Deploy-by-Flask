@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Audio Recorder</title>
+<!--        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">-->
+        <script type="text/javascript" src="{{ url_for('static',filename='js/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static',filename='js/recorder.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static',filename='js/app.js') }}"></script>
+    </head>
+    <body>
+        <div class="holder">
+            <div data-role="controls">
+                <button>Record</button>
+            </div>
+            <div data-role="recordings"></div>
+        </div>
+        <div class="checkGender">
+            <form action="" method="post">
+                <input id="urlAudio" type="text" placeholder="">
+<!--                <input type="submit" name="Check gender">-->
+            </form>
+        </div>
+    </body>
+</html>

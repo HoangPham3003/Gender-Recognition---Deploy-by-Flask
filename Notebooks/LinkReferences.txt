@@ -1,0 +1,14 @@
+1. Gender recognition by voice (Demo)
+- http://www.primaryobjects.com/2016/06/22/identifying-the-gender-of-a-voice-using-machine-learning/
+
+2. Gender classification 
+- Data: https://www.kaggle.com/primaryobjects/voicegender
+
+3. Audio recorder
+- https://www.youtube.com/watch?v=B3wWIsNHPk4
+
+4. Flask python
+- Tech with Tim
+
+5. Using R in python to features extracting
+- https://www.researchgate.net/profile/Ali-Cibikdiken/publication/312219824_Voice_Gender_Recognition_Using_Deep_Learning/links/59f05fb90f7e9beabfc6757a/Voice-Gender-Recognition-Using-Deep-Learning.pdf
